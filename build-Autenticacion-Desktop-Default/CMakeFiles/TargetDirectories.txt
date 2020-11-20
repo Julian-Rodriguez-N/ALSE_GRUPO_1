@@ -1,0 +1,4 @@
+/home/julian/Imágenes/build-Autenticacion-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/julian/Imágenes/build-Autenticacion-Desktop-Default/CMakeFiles/Meteo.dir
+/home/julian/Imágenes/build-Autenticacion-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/julian/Imágenes/build-Autenticacion-Desktop-Default/CMakeFiles/Meteo_autogen.dir

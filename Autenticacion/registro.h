@@ -14,6 +14,9 @@ class Registro : public QDialog
 public:
     explicit Registro(QWidget *parent = 0);
     ~Registro();
+signals:
+    void enviar_info(nombre, apellido );
+
 
 private:
     Ui::Registro *ui;
