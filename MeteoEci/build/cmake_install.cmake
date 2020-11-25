@@ -1,4 +1,4 @@
-# Install script for directory: /home/julian/Documentos/ALSE_2020-2/MeteoEci
+# Install script for directory: /home/julian/Vídeos/MeteoEci
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/julian/Documentos/ALSE_2020-2/MeteoEci/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/julian/Vídeos/MeteoEci/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

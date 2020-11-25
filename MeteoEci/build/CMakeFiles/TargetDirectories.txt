@@ -1,4 +1,4 @@
-/home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles/rebuild_cache.dir
-/home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles/MeteoECI.dir
-/home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles/edit_cache.dir
-/home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles/MeteoECI_autogen.dir
+/home/julian/Vídeos/MeteoEci/build/CMakeFiles/rebuild_cache.dir
+/home/julian/Vídeos/MeteoEci/build/CMakeFiles/Meteo_Proyecto.dir
+/home/julian/Vídeos/MeteoEci/build/CMakeFiles/edit_cache.dir
+/home/julian/Vídeos/MeteoEci/build/CMakeFiles/Meteo_Proyecto_autogen.dir

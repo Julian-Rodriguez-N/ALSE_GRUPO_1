@@ -9,5 +9,5 @@ INCLUDE_DIRECTORIES(${Qt5Widgets_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} )
 set( CMAKE_AUTOMOC ON )
 set( CMAKE_AUTOUIC ON )
 
-add_executable( ${PROJECT_NAME} main.cpp meteoeci_gui.cpp meteoeci_gui.h meteoeci_gui.ui sensor.h sensor.cpp db_local.h db_local.cpp datos.h datos.cpp datos.ui registro.h registro.cpp registro.ui)
+add_executable( ${PROJECT_NAME} main.cpp meteoeci_gui.cpp meteoeci_gui.h meteoeci_gui.ui sensor.h sensor.cpp db_local.h db_local.cpp registro.h registro.cpp registro.ui)
 target_link_libraries ( ${PROJECT_NAME} Qt5::Core Qt5::Widgets sqlite3 )

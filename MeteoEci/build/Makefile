@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julian/Documentos/ALSE_2020-2/MeteoEci
+CMAKE_SOURCE_DIR = /home/julian/Vídeos/MeteoEci
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julian/Documentos/ALSE_2020-2/MeteoEci/build
+CMAKE_BINARY_DIR = /home/julian/Vídeos/MeteoEci/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles /home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julian/Vídeos/MeteoEci/build/CMakeFiles /home/julian/Vídeos/MeteoEci/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/julian/Documentos/ALSE_2020-2/MeteoEci/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julian/Vídeos/MeteoEci/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,57 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MeteoECI
+# Target rules for targets named Meteo_Proyecto
 
 # Build rule for target.
-MeteoECI: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MeteoECI
-.PHONY : MeteoECI
+Meteo_Proyecto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Meteo_Proyecto
+.PHONY : Meteo_Proyecto
 
 # fast build rule for target.
-MeteoECI/fast:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/build
-.PHONY : MeteoECI/fast
+Meteo_Proyecto/fast:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/build
+.PHONY : Meteo_Proyecto/fast
 
 #=============================================================================
-# Target rules for targets named MeteoECI_autogen
+# Target rules for targets named Meteo_Proyecto_autogen
 
 # Build rule for target.
-MeteoECI_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MeteoECI_autogen
-.PHONY : MeteoECI_autogen
+Meteo_Proyecto_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Meteo_Proyecto_autogen
+.PHONY : Meteo_Proyecto_autogen
 
 # fast build rule for target.
-MeteoECI_autogen/fast:
-	$(MAKE) -f CMakeFiles/MeteoECI_autogen.dir/build.make CMakeFiles/MeteoECI_autogen.dir/build
-.PHONY : MeteoECI_autogen/fast
+Meteo_Proyecto_autogen/fast:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto_autogen.dir/build.make CMakeFiles/Meteo_Proyecto_autogen.dir/build
+.PHONY : Meteo_Proyecto_autogen/fast
 
-MeteoECI_autogen/mocs_compilation.o: MeteoECI_autogen/mocs_compilation.cpp.o
+Meteo_Proyecto_autogen/mocs_compilation.o: Meteo_Proyecto_autogen/mocs_compilation.cpp.o
 
-.PHONY : MeteoECI_autogen/mocs_compilation.o
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.o
 
 # target to build an object file
-MeteoECI_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/MeteoECI_autogen/mocs_compilation.cpp.o
-.PHONY : MeteoECI_autogen/mocs_compilation.cpp.o
+Meteo_Proyecto_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/Meteo_Proyecto_autogen/mocs_compilation.cpp.o
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.cpp.o
 
-MeteoECI_autogen/mocs_compilation.i: MeteoECI_autogen/mocs_compilation.cpp.i
+Meteo_Proyecto_autogen/mocs_compilation.i: Meteo_Proyecto_autogen/mocs_compilation.cpp.i
 
-.PHONY : MeteoECI_autogen/mocs_compilation.i
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-MeteoECI_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/MeteoECI_autogen/mocs_compilation.cpp.i
-.PHONY : MeteoECI_autogen/mocs_compilation.cpp.i
+Meteo_Proyecto_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/Meteo_Proyecto_autogen/mocs_compilation.cpp.i
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.cpp.i
 
-MeteoECI_autogen/mocs_compilation.s: MeteoECI_autogen/mocs_compilation.cpp.s
+Meteo_Proyecto_autogen/mocs_compilation.s: Meteo_Proyecto_autogen/mocs_compilation.cpp.s
 
-.PHONY : MeteoECI_autogen/mocs_compilation.s
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-MeteoECI_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/MeteoECI_autogen/mocs_compilation.cpp.s
-.PHONY : MeteoECI_autogen/mocs_compilation.cpp.s
+Meteo_Proyecto_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/Meteo_Proyecto_autogen/mocs_compilation.cpp.s
+.PHONY : Meteo_Proyecto_autogen/mocs_compilation.cpp.s
 
 db_local.o: db_local.cpp.o
 
@@ -169,7 +169,7 @@ db_local.o: db_local.cpp.o
 
 # target to build an object file
 db_local.cpp.o:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/db_local.cpp.o
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/db_local.cpp.o
 .PHONY : db_local.cpp.o
 
 db_local.i: db_local.cpp.i
@@ -178,7 +178,7 @@ db_local.i: db_local.cpp.i
 
 # target to preprocess a source file
 db_local.cpp.i:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/db_local.cpp.i
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/db_local.cpp.i
 .PHONY : db_local.cpp.i
 
 db_local.s: db_local.cpp.s
@@ -187,7 +187,7 @@ db_local.s: db_local.cpp.s
 
 # target to generate assembly for a file
 db_local.cpp.s:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/db_local.cpp.s
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/db_local.cpp.s
 .PHONY : db_local.cpp.s
 
 main.o: main.cpp.o
@@ -196,7 +196,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -205,7 +205,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -214,7 +214,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 meteoeci_gui.o: meteoeci_gui.cpp.o
@@ -223,7 +223,7 @@ meteoeci_gui.o: meteoeci_gui.cpp.o
 
 # target to build an object file
 meteoeci_gui.cpp.o:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/meteoeci_gui.cpp.o
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/meteoeci_gui.cpp.o
 .PHONY : meteoeci_gui.cpp.o
 
 meteoeci_gui.i: meteoeci_gui.cpp.i
@@ -232,7 +232,7 @@ meteoeci_gui.i: meteoeci_gui.cpp.i
 
 # target to preprocess a source file
 meteoeci_gui.cpp.i:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/meteoeci_gui.cpp.i
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/meteoeci_gui.cpp.i
 .PHONY : meteoeci_gui.cpp.i
 
 meteoeci_gui.s: meteoeci_gui.cpp.s
@@ -241,8 +241,35 @@ meteoeci_gui.s: meteoeci_gui.cpp.s
 
 # target to generate assembly for a file
 meteoeci_gui.cpp.s:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/meteoeci_gui.cpp.s
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/meteoeci_gui.cpp.s
 .PHONY : meteoeci_gui.cpp.s
+
+registro.o: registro.cpp.o
+
+.PHONY : registro.o
+
+# target to build an object file
+registro.cpp.o:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/registro.cpp.o
+.PHONY : registro.cpp.o
+
+registro.i: registro.cpp.i
+
+.PHONY : registro.i
+
+# target to preprocess a source file
+registro.cpp.i:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/registro.cpp.i
+.PHONY : registro.cpp.i
+
+registro.s: registro.cpp.s
+
+.PHONY : registro.s
+
+# target to generate assembly for a file
+registro.cpp.s:
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/registro.cpp.s
+.PHONY : registro.cpp.s
 
 sensor.o: sensor.cpp.o
 
@@ -250,7 +277,7 @@ sensor.o: sensor.cpp.o
 
 # target to build an object file
 sensor.cpp.o:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/sensor.cpp.o
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/sensor.cpp.o
 .PHONY : sensor.cpp.o
 
 sensor.i: sensor.cpp.i
@@ -259,7 +286,7 @@ sensor.i: sensor.cpp.i
 
 # target to preprocess a source file
 sensor.cpp.i:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/sensor.cpp.i
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/sensor.cpp.i
 .PHONY : sensor.cpp.i
 
 sensor.s: sensor.cpp.s
@@ -268,7 +295,7 @@ sensor.s: sensor.cpp.s
 
 # target to generate assembly for a file
 sensor.cpp.s:
-	$(MAKE) -f CMakeFiles/MeteoECI.dir/build.make CMakeFiles/MeteoECI.dir/sensor.cpp.s
+	$(MAKE) -f CMakeFiles/Meteo_Proyecto.dir/build.make CMakeFiles/Meteo_Proyecto.dir/sensor.cpp.s
 .PHONY : sensor.cpp.s
 
 # Help Target
@@ -278,12 +305,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... MeteoECI"
+	@echo "... Meteo_Proyecto"
 	@echo "... edit_cache"
-	@echo "... MeteoECI_autogen"
-	@echo "... MeteoECI_autogen/mocs_compilation.o"
-	@echo "... MeteoECI_autogen/mocs_compilation.i"
-	@echo "... MeteoECI_autogen/mocs_compilation.s"
+	@echo "... Meteo_Proyecto_autogen"
+	@echo "... Meteo_Proyecto_autogen/mocs_compilation.o"
+	@echo "... Meteo_Proyecto_autogen/mocs_compilation.i"
+	@echo "... Meteo_Proyecto_autogen/mocs_compilation.s"
 	@echo "... db_local.o"
 	@echo "... db_local.i"
 	@echo "... db_local.s"
@@ -293,6 +320,9 @@ help:
 	@echo "... meteoeci_gui.o"
 	@echo "... meteoeci_gui.i"
 	@echo "... meteoeci_gui.s"
+	@echo "... registro.o"
+	@echo "... registro.i"
+	@echo "... registro.s"
 	@echo "... sensor.o"
 	@echo "... sensor.i"
 	@echo "... sensor.s"

@@ -6,6 +6,8 @@
 #include <QTimer>
 #include "sensor.h"
 #include "db_local.h"
+#include <string>
+
 
 namespace Ui {
 class MeteoECI_GUI;
@@ -25,6 +27,10 @@ public slots:
     void leerSensores();
 
 private slots:
+    void on_pushButton_2_clicked();
+    void registro_slot(std::vector<std::string> datos_registro);
+
+private slots:
     void on_pushButton_clicked();
 
 private:
@@ -37,6 +43,7 @@ private:
     int         _hr, _min, _itera;
     double      _prom_gps[3], _prom_Tem[2], _prom_Viento[2], _prom_Preci;
     Db_Local    *_db_local;
+
 };
 
 #endif // METEOECI_GUI_H
