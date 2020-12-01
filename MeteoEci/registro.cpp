@@ -11,12 +11,17 @@ Registro::Registro(QWidget *parent) :
 {
     ui->setupUi(this);
 }
-
 Registro::~Registro()
 {
     delete ui;
 }
 
+/**
+ * @brief Emite la señal con los datos de registro del usuario usuario nuevo
+ * para ingresarlos en la DB.
+ * @param datos_registro, vector que almacena los datos ingresados en la ventana de registro.
+ * @return No retorna nada.
+ */
 void Registro::on_pushButton_clicked()
 {
     std::vector<std::string> datos_registro(9);
@@ -30,6 +35,7 @@ void Registro::on_pushButton_clicked()
     datos_registro[6]=ui->lineEdit_8->text().toStdString();
     datos_registro[7]=ui->lineEdit_4->text().toStdString();
     datos_registro[8]="0";
+
     std::cout << datos_registro[1] << std::endl;
     emit( this->registro_signal(datos_registro));
     this->hide();
